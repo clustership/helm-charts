@@ -3,9 +3,9 @@ entries:
   gogs:
   - apiVersion: v2
     appVersion: 0.12.2
-    created: "2020-10-26T15:26:28.238297+01:00"
+    created: "2020-10-26T15:45:14.3367+01:00"
     description: A Helm chart for Kubernetes
-    digest: e5eda7926f56c58b814f191007785018439f3d243e1f271e3b3c4d8d0c37d620
+    digest: 5f5135208cd8de1d024d0c6b91301027a83d7d5173db0ce118602244d95f81bd
     name: gogs
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.12.2
-    created: "2020-10-26T15:26:28.237471+01:00"
+    created: "2020-10-26T15:45:14.335632+01:00"
     description: A Helm chart for Kubernetes
     digest: 08198f13b8e3eb92097fe61c84df812a9e30756486ebdd59763555eaa2192341
     name: gogs
@@ -24,7 +24,7 @@ entries:
   gogs-full:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-26T15:26:28.240552+01:00"
+    created: "2020-10-26T15:45:14.339983+01:00"
     dependencies:
     - name: postgresql
       repository: https://clustership.github.io/helm-charts/
@@ -48,7 +48,7 @@ entries:
   postgresql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-26T15:26:28.241892+01:00"
+    created: "2020-10-26T15:45:14.341211+01:00"
     description: A Helm chart for Kubernetes
     digest: 9b052a4d4eeacfbf11712512385ac27ca38ffead7a99533303da941b4e85b0de
     name: postgresql
@@ -56,4 +56,4 @@ entries:
     urls:
     - https://clustership.github.io/helm-charts/postgresql-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-26T15:26:28.23411+01:00"
+generated: "2020-10-26T15:45:14.329725+01:00"

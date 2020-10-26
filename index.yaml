@@ -3,23 +3,57 @@ entries:
   gogs:
   - apiVersion: v2
     appVersion: 0.12.2
-    created: "2020-10-19T15:36:00.934984+02:00"
+    created: "2020-10-26T15:26:28.238297+01:00"
     description: A Helm chart for Kubernetes
-    digest: f2df894e97a28ed5e6253498cca35c9ace2036fd2b7dfef81bdc9ee6b6c64176
+    digest: e5eda7926f56c58b814f191007785018439f3d243e1f271e3b3c4d8d0c37d620
+    name: gogs
+    type: application
+    urls:
+    - https://clustership.github.io/helm-charts/gogs-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.12.2
+    created: "2020-10-26T15:26:28.237471+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 08198f13b8e3eb92097fe61c84df812a9e30756486ebdd59763555eaa2192341
     name: gogs
     type: application
     urls:
     - https://clustership.github.io/helm-charts/gogs-0.1.0.tgz
     version: 0.1.0
+  gogs-full:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-10-26T15:26:28.240552+01:00"
+    dependencies:
+    - name: postgresql
+      repository: https://clustership.github.io/helm-charts/
+      tags:
+      - back-end
+      - postgresql
+      version: 0.1.0
+    - name: gogs
+      repository: https://clustership.github.io/helm-charts/
+      tags:
+      - front-end
+      - gogs
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: e596885708cf0f923f0dd7198748554d5725f75d11dd46a9d687b30aa98b95ad
+    name: gogs-full
+    type: application
+    urls:
+    - https://clustership.github.io/helm-charts/gogs-full-0.1.0.tgz
+    version: 0.1.0
   postgresql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-19T15:36:00.93546+02:00"
+    created: "2020-10-26T15:26:28.241892+01:00"
     description: A Helm chart for Kubernetes
-    digest: 2f2d3ff2f85f3289249b84da44c5150e5f8659d6dba53d70461f26e7a28a1ad2
+    digest: 9b052a4d4eeacfbf11712512385ac27ca38ffead7a99533303da941b4e85b0de
     name: postgresql
     type: application
     urls:
     - https://clustership.github.io/helm-charts/postgresql-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-19T15:36:00.933026+02:00"
+generated: "2020-10-26T15:26:28.23411+01:00"
